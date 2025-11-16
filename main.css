@@ -1,0 +1,96 @@
+/* Sets the page appearance  */
+body {
+    background-color: rgb(21, 21, 123);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* Sets Styles for the header section */
+header {
+    margin: 20px;
+    text-align: center;
+}
+/* Sets Styles for the main content */
+main {
+    margin: 30px auto; /* keeps some space around the content */
+    width: 80%;
+    max-width: 700px;
+    padding: 20px; /* keeps space inside the text area */
+}
+/* Sets Styles for navigation links */
+nav a {
+    background-color: whitesmoke;
+    color: rgb(21, 21, 123);
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* Hover effect */
+nav a:hover {
+    background-color: rgb(192, 192, 255);
+}
+/* Styles for spacing between each form field */
+form div {
+    margin-bottom: 15px;
+}
+/* Styles for all text boxes, number boxes, dropdowns, and text areas */
+input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+/* Styles for the Submit button */
+input[type="submit"] {
+    background-color: whitesmoke;
+    color: rgb(21, 21, 123);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Hover effect for Submit button */
+input[type="submit"]:hover {
+    background-color: rgb(180, 180, 255);
+}
+/* Styles for displaying validation messages in yellow font */
+.error {
+    color: yellow;
+    margin-bottom: 10px;
+}
+/* Centers and adds space around the welcome image on the homepage */
+.welcome-image {
+    margin: 15px 0;
+    text-align: center;
+}
+/* Styles for the company description text */
+.company-description {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+/* It centers text */
+.center-text {
+    text-align: center;
+}
+/* Styles for countdown numbers box */
+#divCountdown {
+    display: flex;               /* flexbox */
+    justify-content: center;     /* centers horizontally */
+    align-items: center;         /* centers vertically */
+    font-size: 1.5rem;           /* slightly bigger font */
+    background-color: rgba(255, 255, 255, 0.1); /* subtle transparent box */
+    padding: 15px 25px;          /* padding around the countdown */
+    border-radius: 10px;         /* rounded corners */
+    margin: 0 auto 15px auto;    /* auto margin to center box horizontally, 15px space below */
+    width: fit-content;           /* box shrinks to fit countdown text */
+    text-align: center;           /* center text inside box */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* optional shadow for a "floating" effect */
+}
+/* Centers and styles the countdown message text */
+#divCountdownMessage {
+    text-align: center;   /* centers the message */
+    font-size: 1.2rem;    /* increases text size slightly */
+    margin-top: 10px;     /* adds space above the message */
+}
